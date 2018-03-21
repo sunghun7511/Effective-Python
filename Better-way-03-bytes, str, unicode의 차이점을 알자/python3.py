@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 
 def to_str(bytes_or_str):

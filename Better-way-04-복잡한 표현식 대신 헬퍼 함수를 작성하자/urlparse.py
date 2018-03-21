@@ -1,4 +1,14 @@
+# -*- coding: utf-8 -*-
 from urllib.parse import parse_qs
+
+'''
+## 핵심 정리
+
+* 파이썬의 문법을 이용하면 한 줄짜리 표현식을 쉽게 작성할 수 있지만 코드가 복잡해지고 읽기 어려워진다.
+* 복잡한 표현식은 헬퍼  함수로 옮기는 게 좋다. 특히, 같은 로직을 반복해서 사용해야 한다면 헬퍼 함수를 사용하자.
+* if/else 표현식을 이용하면 or나 and 같은 불 연산자를 사용할 때보다 읽기 수월한 코드를 작성할 수 있다.
+'''
+
 
 my_values = parse_qs("red=5&blue=0&green=", keep_blank_values=True)
 
